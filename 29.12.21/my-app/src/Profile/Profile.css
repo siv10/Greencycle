@@ -1,0 +1,19 @@
+ /* div .animation {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    position: relative;
+    animation-direction: alternate ;
+    animation-name: example;
+    animation-duration:30s;  
+}
+@keyframes example {
+    0%   {background-color:pink; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    100%  {background-color:pink; left:0px; top:0px;}
+  } */
+
+  img{
+    width: 70px;
+    height: 50px;
+  }

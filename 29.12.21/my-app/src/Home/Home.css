@@ -1,0 +1,83 @@
+/* .Home{
+background-color: #F1F2F2;
+
+} */
+
+.Home .mainHeader{
+   background-color: white; 
+   height: 125px;
+   display: flex;
+   align-items: center;
+}
+
+.Home .mainHeader img{
+    height: 125px;
+    width: 400px;
+    display: flex;
+    align-content: flex-start;
+}
+
+.Home .mainHeader p{
+font-family:cursive;
+margin-left: 100px;
+font-size: x-large;
+
+}
+
+.Home .Main{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.Home .champs{
+    color:#58595B;
+    margin-bottom: 10px;  
+}
+/* .Home .boardNote textarea{
+    width:300px;
+    height: 200px;
+    margin: 10px 0 10px ;
+    box-sizing: border-box;
+    border-color: 3px solid #ccc;
+    border-radius: 5%;
+    padding: 12px 20px ;
+    background:none;
+} */
+.Home .winnErs  {
+    color:#58595B;
+    display: flex;
+    flex-direction: row;
+}
+
+.Home .firstP {
+margin-top: 10px;
+justify-content: center;
+border: 2px solid #ccc;
+border-radius: 10px;
+padding: 10px 10px;
+margin: 10px;
+
+}
+
+.Home .buttom .homeUls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 31px;
+} 
+
+
+.Home .buttom .homeUls li{
+    list-style: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px 11px;
+    margin: 10px; 
+    color:#58595B;  
+}
+ .Home .homeUls img{
+     width:70px;
+     height: 50px;
+ }
