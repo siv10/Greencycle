@@ -22,4 +22,14 @@ router.post("/", async (req, res) => {
     }
 });
 
+router.put("/updateAmount/:name", async (req, res) => {
+    let isAllOK = await myRepository.updateAmount(req.body.couponValue, req.params.name);
+    if (isAllOK === true) {
+        res.send("amount update");
+    }
+    else {
+        res.send("unsuccessful updating");
+    }
+});
+
 module.exports = router;

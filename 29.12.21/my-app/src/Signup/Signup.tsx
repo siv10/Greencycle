@@ -17,7 +17,8 @@ export function Signup() {
         name: "",
         password: "",
         email: "@gmail.com",
-        role: ""
+        role: "",
+        amount: 0
     })
 
     let [someStr, setSomeStr] = useState("");

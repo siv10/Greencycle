@@ -53,3 +53,9 @@ const addIdea = async (newidea) => {
 }
 exports.addIdea = addIdea;
 
+const updateAmount = async (amount, name) => {
+    console.log("the amount is ", amount);
+    const x = await allUsers.updateOne({ name: name }, { $set: { amount: amount } })
+    return true;
+};
+exports.updateAmount = updateAmount;
