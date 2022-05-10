@@ -11,7 +11,12 @@ const userSchema = new mongoose.Schema(
         password: String,
         email: String,
         role: String,
-        amount: Number
+        amount: Number,
+        ideas: {
+            type: Array,
+            default: []
+        }
+
     },
     { timestamps: true }
 );

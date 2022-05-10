@@ -1,16 +1,17 @@
+
 export let navArr = [
     {
         title: "Home",
         url: "/"
     },
     {
-        title: "About",
-        url: "/about"
+        title: "Brands",
+        url: "/brands"
     },
-    // {
-    //     title: "Contact",
-    //     url: "/contact"
-    // },
+    {
+        title: "Map",
+        url: "/map"
+    },
     {
         title: "Activities",
         url: "/Ideas"
@@ -23,9 +24,9 @@ export let navArr = [
         title: "Signup",
         url: "/Signup"
     }
-    // ,
-    // {
-    //     title: "Login",
-    //     url: "/login"
-    // }
+    ,
+    {
+        title: "Login",
+        url: "/login"
+    }
 ];

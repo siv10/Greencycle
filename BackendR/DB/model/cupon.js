@@ -5,10 +5,11 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
     .catch(err => console.error('Something went wrong', err));
 
 
-const ideaSchema = new mongoose.Schema(
+const cuponSchema = new mongoose.Schema(
     {
-        title: String,
-        content: String
+        code: String,
+        value: String,
+        deadline: Date
 
     },
     { timestamps: true }
@@ -16,4 +17,4 @@ const ideaSchema = new mongoose.Schema(
 
 
 
-module.exports.Ideas = mongoose.model('Ideas', ideaSchema);
+module.exports.Cupon = mongoose.model('Cupon', cuponSchema);

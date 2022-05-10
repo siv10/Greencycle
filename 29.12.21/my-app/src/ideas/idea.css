@@ -1,40 +1,63 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.shareToFacebookBTN {
+    width: 190px;
+    background-color: rgba(34, 34, 97, 0.795);
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.faceshare {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.faceshare p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
 
 .Ideas {
-padding: 50px;
+    padding: 20px;
 }
 
-.Ideas h3{
-    margin-bottom: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: italic;
+.Ideas h3 {
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 
-.Ideas form{
+.Ideas form {
     display: flex;
-    align-items:center;
-    justify-content: center;
+    align-items: center;
+    justify-content: left;
     flex-direction: row;
 
 }
 
-.Ideas textarea{
-    border-radius: 10px;
+.Ideas textarea {
     padding: 10px;
     margin-bottom: 10px;
+    border-style: none;
+    border-bottom: groove;
+    align-items: center;
+
 }
 
-.Ideas form input{
+.Ideas form input {
     padding: 10px;
-   margin-right:10px;
-    margin-left: 10px;
     border-radius: 10px;
-    background-color:lightgray;
-    border: none;
-}
+    margin-right: 20px;
+    margin-left: 10px;
+    border-style: none;
+    border-bottom: groove;
 
+}

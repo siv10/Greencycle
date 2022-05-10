@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import './Profile.css';
+import { IoAnalytics } from "react-icons/io5";
+
 
 export function Profile() {
     let url1 = "http://localhost:5002/users/";
@@ -76,31 +78,34 @@ export function Profile() {
 
     return (
         <div className='Profile'>
-            {/* <div className='animation'></div> */}
             <div className='form'>
-                <h2>My Profile</h2>
+                <h3>My Profile</h3>
                 <form className="register-form" id="contactForm" onSubmit={(e) => { formWasSubmitted(e) }} >
-                    <input onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-                        setSomeStr(e.target.value);
-                        textWasChanged(e, "name")
-                    }} type="text" id="name" name="name" placeholder="username" />
-                    <div className='brands'>
-                        <img src="./mac.png" alt="mac" />
-                        <label >Choose Coupon:</label>
-                        <select defaultValue={"coupon"} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
-                            textWasChanged(e, "coupon")
-                        }} name="coupon" id="coupon">
-                            <option></option>
-                            {/* 6plastic/glass */}
-                            <option value="coupon1">000110</option>
-                            {/* 12plastic/glass */}
-                            <option value="coupon2">001100</option>
-                            {/* 18plastic/glass */}
-                            <option value="coupon3">010010</option>
-                        </select>
+                    <div>
+                        <input className='nameinput' onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                            setSomeStr(e.target.value);
+                            textWasChanged(e, "name")
+                        }} type="text" id="name" name="name" placeholder="username" />
                     </div>
-                    <div><p>Recycling Amount</p><button>:{couponValue}</button></div>
-                    <input id="subMit" type="submit" value={"submit"} />
+                    <div className='brands' >
+                        <div><img src="./mac.png" alt="mac" /></div>
+                        <div className='nextToimg'>
+                            <label >Choose Coupon:</label>
+                            <select defaultValue={"coupon"} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
+                                textWasChanged(e, "coupon")
+                            }} name="coupon" id="coupon">
+                                <option></option>
+                                {/* 6plastic/glass */}
+                                <option value="coupon1">000110</option>
+                                {/* 12plastic/glass */}
+                                <option value="coupon2">001100</option>
+                                {/* 18plastic/glass */}
+                                <option value="coupon3">010010</option>
+                            </select>
+                            <div><p>Recycling Amount</p><button>{couponValue} <IoAnalytics /></button></div>
+                            <input id="subMit" type="submit" value={"submit"} />
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

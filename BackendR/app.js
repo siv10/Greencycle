@@ -8,6 +8,7 @@ app.use(express.json());
 
 app.use('/users', require('./routes/users-routes'));
 app.use('/ideas', require('./routes/ideas-routes'));
+app.use('/cupon', require('./routes/cupon-routes'));
 
 
 //=======================

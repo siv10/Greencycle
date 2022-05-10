@@ -10,8 +10,9 @@ export function Home() {
         (document.querySelector('.Home') as HTMLElement).innerHTML = homeMain.innerHTML
     }, [])
     return (
-        <div className="Home">
 
+        <div className="Home">
         </div>
+
     )
 };

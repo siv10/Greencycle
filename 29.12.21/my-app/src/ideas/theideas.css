@@ -1,40 +1,68 @@
-.theideas{
-align-items: center;
-background-color: whitesmoke;
-padding: 10px 0px 10px;
-
-
+.Appi {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
 
-
-.theideas ul{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-
+.Appi .cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 30%;
+  padding: 5%;
 }
 
-.theideas li{
-    list-style: none;
-    margin-right: 10px;
-    margin-left: 10px;
-
-}
-
-.theideas input{
-padding: 10px;
-margin-top:10px;
-margin-bottom: 10px;
-height: 50px;
-width: 600px;
-}
-
-.theideas button{
-    height: 30px;
-    width: 50px;
-margin-right: 5px;
+.Appi .name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 
 
+.Appi .titlelike {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.theideas .uls {
+  border: groove;
+  padding: 6px;
+  border-radius: 15px;
+}
+
+
+.theideas li {
+  list-style: none;
+}
+
+
+.theideas .buttons {
+  padding: 10px;
+  flex-direction: row;
+
+}
+
+.name input {
+  border: none;
+}
+
+.theideas input {
+  overflow: auto;
+  resize: none;
+  display: block;
+  padding: 8px;
+  border: groove;
+  width: 300px;
+
+}
+
+.theideas .buttons button {
+  width: 60px;
+  margin-right: 10px;
+  background-color: #7fb349;
+  border-radius: 15px;
+  border-style: none;
+}

@@ -1,0 +1,30 @@
+.Brands h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #117243;
+    margin: 20px;
+}
+
+.Brands .pI {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.Brands img {
+    color: #58595B;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.Brands p {
+    width: 60%;
+    text-align: left;
+    display: inline-flex;
+    padding: 2em;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

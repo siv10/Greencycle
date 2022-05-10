@@ -6,7 +6,19 @@ export function Contact() {
     return (
         <div>
             <h3>Contact Us</h3>
+            <div className='container1'>
+                <div>
+                    <p>Welcome To Our GREENSITE
+                    </p></div>
+                <div></div>
+            </div>
+            <div className='container2'>
+                <div>
+                    <p>Welcome To Our GREENSITE </p></div>
+                <div>
 
+                </div>
+            </div>
         </div>
     )
 }

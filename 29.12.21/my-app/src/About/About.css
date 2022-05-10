@@ -10,7 +10,6 @@
     height: 496px;
     flex-direction: column;
     align-content: center;
-    background-color: #F1F2F2;
 }
 
 .About .pI{
@@ -30,7 +29,6 @@ margin-top: 20px ;
 
 .About p{
     width:60%;
-    background-color: khaki;
     text-align: left;
     display: inline-flex;
     padding: 2em ; 

@@ -1,19 +1,84 @@
- /* div .animation {
-    width: 20px;
-    height: 20px;
-    background-color: pink;
-    position: relative;
-    animation-direction: alternate ;
-    animation-name: example;
-    animation-duration:30s;  
+.Profile{
+  padding: 2% 0 0%;
+  margin:auto;
+  background-image: url(/note.jpg) ;
+  background-position:center;
+  background-size:cover;
+  padding: 10px;
+  min-height: 490px;
 }
-@keyframes example {
-    0%   {background-color:pink; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    100%  {background-color:pink; left:0px; top:0px;}
-  } */
+.Profile .form{
+  backdrop-filter: blur(2px);
+  position:relative;
+  z-index: 1; 
+   background: none; 
+  max-width: 400px;
+  margin: 10px auto 10px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+.Profile .form{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-family: "Roboto", sans-serif;
+   text-transform: uppercase;
+}
+.Profile .register-form{
+  justify-content: center;
+  align-items: center;
+  
+}
+.Profile .register-form .nameinput {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 5px 0px 5px;
+  outline: 0;
+  background:  #E5F0FF ;
+  width: 40%;
+  border: 0;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+ .Profile .brands{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.Profile .nextToimg{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.Profile .nextToimg input ,button ,select{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 5px 0px 5px;
+  outline: 0;
+  background:  #E5F0FF ;
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
 
   img{
     width: 70px;
     height: 50px;
+    margin-right: 50px;
   }

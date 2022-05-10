@@ -69,7 +69,7 @@ export function Signup() {
                                 navigate('/')
 
                             } if (option.button === 2) {
-                                navigate('/profile')
+                                navigate('/Ideas')
                             }
                         })
 
@@ -99,16 +99,12 @@ export function Signup() {
 
                         textWasChanged(e, "password")
                     }}
-                        type="text" id="password" name="password" placeholder="password" />
+                        type="password" id="password" name="password" placeholder="password" />
 
                     <input onChange={(e) => { textWasChanged(e, "email") }}
                         type="text"
                         id="Email" name="Email"
                         placeholder={formInfo.email} />
-
-                    {/* <input onChange={(e) => { textWasChanged(e, "birth") }}
-                        type="date" id="birthday" name="birthday"
-                        min="1910-01-01" max={"2022-01-10"} /> */}
                     <input id="subMit" type="submit" value={"submit"} onClick={() => (option.button = 1)} />
                     <button id="newU" type="submit" onClick={() => (option.button = 2)} >Admin</button>
                 </form>

@@ -5,12 +5,13 @@ import { navArr } from './Navbar/nav_items';
 import { Home } from './Home/Home';
 import { Footer } from "./Footer/Footer";
 import { About } from "./About/About";
-import { Contact } from "./Contact/Contact";
+import { Map } from "./Location/Map";
 import { Signup } from "./Signup/Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Ideas } from './ideas/Ideas';
 import { Profile } from './Profile/Profile';
 import { Login } from './Login/Login';
+import { Brands } from "./Brands/Brands";
 function App() {
   return (
     <div className="App" id='allItems'>
@@ -20,12 +21,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="brands" element={<Brands />} />
           <Route path="about" element={<About />} />
+          <Route path="map" element={<Map />} />
           <Route path="Ideas" element={<Ideas />} />
           <Route path="profile" element={<Profile />} />
           <Route path="Signup" element={<Signup />} />
-          {/* <Route path="Contact" element={<Contact />} /> */}
-          {/* <Route path="login" element={<Login />} /> */}
+          <Route path="login" element={<Login />} />
         </Routes>
       </BrowserRouter>
       <Footer />

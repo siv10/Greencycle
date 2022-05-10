@@ -8,11 +8,7 @@ export function Footer() {
     }, [])
     return (
         <div className="Footer">
-            {/* <ul className="FooterUL">
-                {props.footeritems.map((curr, i) => (
-                    <li key={i}><a href={curr.url}> {curr.title}</a>  </li>
-                ))}
-            </ul>--props: { footeritems: { title: string, url: string }[] } */}
+
         </div>
     )
 }

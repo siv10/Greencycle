@@ -1,83 +1,168 @@
-/* .Home{
-background-color: #F1F2F2;
+.Home {
+    display: flex;
+    flex-direction: column;
+}
 
+.Home .Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Home h4 {
+    color: #58595B;
+}
+
+.Home.header {
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container .pI {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+
+.container p {
+    width: 60%;
+    text-align: left;
+    display: inline-flex;
+    padding: 2em;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #117243;
+}
+
+
+
+/* .Home.header #img2 {
+    background: none;
 } */
 
-.Home .mainHeader{
-   background-color: white; 
-   height: 125px;
-   display: flex;
-   align-items: center;
-}
-
-.Home .mainHeader img{
-    height: 125px;
-    width: 400px;
-    display: flex;
-    align-content: flex-start;
-}
-
-.Home .mainHeader p{
-font-family:cursive;
-margin-left: 100px;
-font-size: x-large;
+.Home img {
+    margin: 5px;
+    width: auto;
+    height: 90px;
 
 }
 
-.Home .Main{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
 
-.Home .champs{
-    color:#58595B;
-    margin-bottom: 10px;  
-}
-/* .Home .boardNote textarea{
-    width:300px;
-    height: 200px;
-    margin: 10px 0 10px ;
-    box-sizing: border-box;
-    border-color: 3px solid #ccc;
-    border-radius: 5%;
-    padding: 12px 20px ;
-    background:none;
-} */
-.Home .winnErs  {
-    color:#58595B;
-    display: flex;
-    flex-direction: row;
-}
 
-.Home .firstP {
-margin-top: 10px;
-justify-content: center;
-border: 2px solid #ccc;
-border-radius: 10px;
-padding: 10px 10px;
-margin: 10px;
 
-}
 
 .Home .buttom .homeUls {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 31px;
-} 
-
-
-.Home .buttom .homeUls li{
-    list-style: none;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 8px 11px;
-    margin: 10px; 
-    color:#58595B;  
+    padding: 10px;
 }
- .Home .homeUls img{
-     width:70px;
-     height: 50px;
- }
+
+
+.Home .buttom .homeUls li {
+    list-style: none;
+}
+
+.Home .buttom .homeUls h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #117243;
+}
+
+.Home .homeUls img {
+    color: #58595B;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.Home .Sdays .trteb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.Home .trteb img {
+    border-radius: 50%;
+
+}
+
+.Home .Sdays .trteb li {
+    list-style: none;
+    margin: 20px;
+}
+
+
+.Home .Sdays .trteb h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #117243;
+}
+
+.Home .Sdays .trteb p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #117243;
+}
+
+/* .Home .boardNote p {
+    width: 300px;
+    height: 100px;
+    margin: 10px 20px 10px;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #ccc;
+    border-radius: 5%;
+    padding: 12px 20px;
+    background: none;
+    font-size: small;
+    font-weight: bold;
+
+}
+
+u {
+    text-decoration: underline;
+    text-decoration-color: #7fb349;
+    text-decoration-style: solid;
+}
+
+.boardNote button {
+    height: 20px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #7fb349;
+}
+
+.Home .champs {
+    flex-direction: column;
+    display: flex;
+    color: #58595B;
+    margin-bottom: 10px;
+    justify-content: right;
+
+}
+
+.Home .winnErs {
+    color: #58595B;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Home .firstP {
+    margin-top: 10px;
+    flex-direction: row;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+
+} */
